@@ -20,8 +20,10 @@ Example of use:
 ```lua
     local SoundDelayModule = require(game:GetService("ServerScriptStorage):WaitForChild("SoundDelayModule")) -- Require the module 
     local SoundToPlay = workspace.Part.Sound -- Change this to your sound location AND MAKE SURE IT IS INSIDE OF A PART OR THE SCRIPT WILL NOT WORK
+    -- Optional second sound / local SoundToPlay2 = workspace.Part.Sound2
     
-    SoundDelayModule:PlaySound(Location.Of.Sound) -- Play the sound
+    SoundDelayModule:PlaySound(SoundToPlay) -- Play the sound
+    -- Optional play second / SoundDelayModule:PlaySound(SoundToPlay2)
  ```
 Place the following code up above in a script located in ServerScriptStorage.
 
