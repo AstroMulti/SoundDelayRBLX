@@ -27,3 +27,5 @@ Place the following code up above in a script located in ServerScriptStorage.
 
 ### Try it out!
 Try out the script and see the delay in action!
+
+### Questions?  Open an issue or contact me on Discord: astro#2588
