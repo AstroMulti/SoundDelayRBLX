@@ -17,12 +17,12 @@ Delete the folder that the previous files were in once it is empty.
 
 ### How to use the module
 Example of use:
-    ```lua
+```lua
     local SoundDelayModule = require(game:GetService("ServerScriptStorage):WaitForChild("SoundDelayModule")) -- Require the module 
     local SoundToPlay = workspace.Part.Sound -- Change this to your sound location AND MAKE SURE IT IS INSIDE OF A PART OR THE SCRIPT WILL NOT WORK
     
     SoundDelayModule:PlaySound(Location.Of.Sound) -- Play the sound
-    ```
+ ```
 Place the following code up above in a script located in ServerScriptStorage.
 
 ### Try it out!
