@@ -8,11 +8,11 @@ Allows you to implement sound delay and have sounds travel the speed of sound to
 
 ### Installation
 Download the RBXM file and unpack the following components to their respective locations:
-    ```css
-    SoundDelayModule -> ServerScriptService
-    DelaySoundEvent -> ReplicatedStorage
-    SoundDelayClient -> StarterPlayer / StarterCharacterScripts
-    ```
+
+    * SoundDelayModule -> ServerScriptService
+    * DelaySoundEvent -> ReplicatedStorage
+    * SoundDelayClient -> StarterPlayer / StarterCharacterScripts
+    
 Delete the folder that the previous files were in once it is empty.
 
 ### How to use the module
